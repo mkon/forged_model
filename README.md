@@ -2,7 +2,8 @@
 
 Ruby model enriched with some activemodel features.
 
-Includes ActiveModel::Model, Dirty and Serialization and adds an generator for attributes.
+Includes `ActiveModel::Model`, `ActiveModel::Dirty` and `ActiveModel::Serialization`.
+Adds a generator for instance attributes.
 
 ## Installation
 
