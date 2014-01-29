@@ -28,8 +28,8 @@ Dummy < ForgedModel::Model
 end
 
 dummy = Dummy.new(foo: "bar")
-dummy.bar = "other"
-dummy.bar_was # => "bar"
+dummy.foo = "other"
+dummy.foo_was # => "bar"
 # ...
 ```
 
