@@ -9,7 +9,7 @@ Adds a generator for instance attributes.
 
 Add this line to your application's Gemfile:
 
-    gem 'fake_model'
+    gem 'forged_model'
 
 And then execute:
 
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install fake_model
+    $ gem install forged_model
 
 ## Usage
 
