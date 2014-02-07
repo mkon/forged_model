@@ -1,4 +1,5 @@
 require "active_model"
+require "active_model/model" if ActiveModel::VERSION::MAJOR < 4
 
 module ForgedModel
   class Model
@@ -22,7 +23,7 @@ module ForgedModel
             end
           EOS
         end
-        define_attribute_methods *methods
+        define_attribute_methods methods
       end
 
     end
